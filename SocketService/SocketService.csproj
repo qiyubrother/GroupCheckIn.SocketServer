@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Business\ImplementLogin.cs" />
+    <Compile Remove="Business\IProcessBusinessLogic.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.2" />
+    <PackageReference Include="System.IO.Pipelines" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataModule">
+      <HintPath>D:\ShareDllRoot\DataModule.dll</HintPath>
+    </Reference>
+    <Reference Include="qiyubrother.extend">
+      <HintPath>D:\ShareDllRoot\qiyubrother.extend.dll</HintPath>
+    </Reference>
+    <Reference Include="SocketCommunicationFoundation">
+      <HintPath>D:\ShareDllRoot\SocketCommunicationFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Transaction">
+      <HintPath>D:\ShareDllRoot\Transaction.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

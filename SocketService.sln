@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketService", "SocketService\SocketService.csproj", "{A9D7C89D-59BB-45D9-BFDB-502DE9B686F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowDriver", "WindowDriver", "{EA62852E-1584-4BAA-B067-B578ED788713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServiceDriver", "SocketServiceDriver\SocketServiceDriver.csproj", "{8F492772-BCB2-4CCA-A130-DE02D234A3F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9D7C89D-59BB-45D9-BFDB-502DE9B686F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D7C89D-59BB-45D9-BFDB-502DE9B686F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D7C89D-59BB-45D9-BFDB-502DE9B686F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D7C89D-59BB-45D9-BFDB-502DE9B686F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F492772-BCB2-4CCA-A130-DE02D234A3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F492772-BCB2-4CCA-A130-DE02D234A3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F492772-BCB2-4CCA-A130-DE02D234A3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F492772-BCB2-4CCA-A130-DE02D234A3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F492772-BCB2-4CCA-A130-DE02D234A3F6} = {EA62852E-1584-4BAA-B067-B578ED788713}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A480CEE0-3382-4522-839C-89119A0A9514}
+	EndGlobalSection
+EndGlobal
